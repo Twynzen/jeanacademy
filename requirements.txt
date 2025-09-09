@@ -1,0 +1,39 @@
+# Google APIs
+google-api-python-client==2.138.0
+google-auth==2.35.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+
+# Database
+psycopg[binary]==3.2.1
+python-dotenv==1.0.1
+
+# Data processing & Reports
+pandas==2.2.2
+XlsxWriter==3.2.0
+matplotlib==3.9.0
+reportlab==4.2.2
+
+# Email (usaremos Gmail API por ahora, pero dejamos SendGrid como opción)
+# sendgrid==6.11.0
+
+# Web API
+fastapi==0.111.0
+uvicorn==0.30.5
+
+# CLI
+typer==0.12.3
+rich==13.7.1  # Para mejor output en terminal
+
+# Para crear el .exe y GUI
+pyinstaller==6.9.0
+schedule==1.2.0
+
+# GUI (tkinter viene con Python, pero agregamos otros helpers)
+Pillow==10.4.0  # Para imágenes en GUI si es necesario
+
+# Fecha y tiempo
+python-dateutil==2.9.0.post0
+
+# Email sending
+resend  # Para envío automático de emails

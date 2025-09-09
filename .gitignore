@@ -1,0 +1,129 @@
+# Archivos de configuración sensibles
+.env
+*.env
+.env.local
+.env.production
+
+# Credenciales de Google Drive
+service_account.json
+*-service-account.json
+credentials.json
+token.json
+jeanacademy-*.json
+
+# Base de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Reportes generados
+reporte_jeanacademy_*.xlsx
+reporte_jeanacademy_*.pdf
+reporte_entregas_*.xlsx
+reporte_simple_*.xlsx
+*.csv
+reportes/
+output/
+
+# Logs
+logs/
+*.log
+app.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos temporales
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archivos de debug y pruebas temporales
+debug_module.py
+test_*.py
+setup_database.py
+test_connection.py
+
+# Datos de prueba específicos
+data/test_*
+data/real_*
+
+# Archivos de documentación temporal
+plan.md
+structure.md
+ESTADO_PROYECTO.md
+
+# Ejecutables compilados
+dist/
+build/
+*.exe
+*.spec
+jean_executables/
+academia_jean_entrega_*/
+*.app
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
